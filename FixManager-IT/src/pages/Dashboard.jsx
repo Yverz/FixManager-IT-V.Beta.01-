@@ -1,5 +1,5 @@
 function Dashboard() {
-  const ventasDia = 1000;
+  const ventasDia = 1190;
 
   return (
     <section className="dashboard">

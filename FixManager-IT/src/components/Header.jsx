@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 
 
 function Header() {
-  const usuario = "Juan Pérez";
+  const usuario = "Yiver Gaviria";
 
   return (
     <header className="header">
