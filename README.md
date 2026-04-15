@@ -1,2 +1,12 @@
-# FixManager-IT-V.Beta.01-
-Dashboard aplicando fundamentos de SPA Y React con Vite,
+# FixManager IT
+
+## Descripción del Problema
+FixManager IT es una aplicación SPA desarrollada con React que permite gestionar accesos de usuarios, órdenes de reparación de hardware y software, así como PQRS y pedidos en un centro de servicio técnico.
+
+## Tecnologías Utilizadas
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- NPM
