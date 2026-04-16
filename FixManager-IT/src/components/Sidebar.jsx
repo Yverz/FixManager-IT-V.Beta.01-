@@ -1,7 +1,11 @@
 function Sidebar() {
   return (
     <aside className="sidebar">
-      <h1>FixManager</h1>
+    <h1 className="sidebar-brand">
+      <span className="sidebar-brand-main">FixManager</span>
+      <span className="sidebar-brand-it"> IT</span>
+  </h1>
+
       <h2>Admin</h2>
       <nav>
         <a href="/dashboard">Panel General</a>

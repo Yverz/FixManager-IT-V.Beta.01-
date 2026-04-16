@@ -7,11 +7,14 @@ body {
 h1 {
   font-weight: 600;
   letter-spacing: -0.02em;
-  color: #1e6797;
+  color: #229cee;
 }
 
 h2 {
   font-weight: 600;
+  letter-spacing: -0.02em;
+  
+  
 }
 
 p,
@@ -203,13 +206,68 @@ body::before {
   display: flex;
   align-items: center;
 }
+/* Indicador de estado */
+.system-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+/* Estados */
+.system-status.operativo {
+  color: #4ade80;
+}
+
+.system-status.mantenimiento {
+  color: #facc15;
+}
+
+.system-status.pruebas {
+  color: #38bdf8;
+}
+
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: currentColor;
+  box-shadow: 0 0 6px currentColor;
+}
+
+--------------
 
 .brand-main {
   color: #e5e7eb;
 }
 
 .brand-it {
+  color: #06deff;
+  font-weight: 700;
+  text-shadow: 0 0 6px rgba(0, 218, 252, 0.6);
+}
+
+.sidebar-brand {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+
+.sidebar-brand-main {
+  color: #e5e7eb;
+}
+
+
+.sidebar-brand-it {
   color: #22d3ee;
   font-weight: 700;
-  text-shadow: 0 0 6px rgba(34, 211, 238, 0.6);
+  margin-left: 4px;
+  text-shadow: 0 0 8px rgba(34, 211, 238, 0.6);
 }

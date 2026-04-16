@@ -37,7 +37,7 @@ function Dashboard() {
             <tr>
               <td>001</td>
               <td>Cliente A</td>
-              <td>Reparación Hardware(Mantenimiento)</td>
+              <td>Reparación Hardware(Mantenimiento General)</td>
               <td>En proceso</td>
             </tr>
             <tr>
