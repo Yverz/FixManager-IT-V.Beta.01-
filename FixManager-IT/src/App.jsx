@@ -17,7 +17,6 @@ function App() {
       <main>
         <Header />
 
-        {/* CONTENIDO DINÁMICO SPA */}
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/pedidos" element={<Pedidos />} />
